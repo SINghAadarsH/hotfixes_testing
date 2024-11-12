@@ -15,7 +15,7 @@ read -p "Enter first number: " num1
 read -p "Enter second number: " num2
 
 # Perform the chosen operation
-#case $choice in
+case $choice in
     1)
         result=$(echo "$num1 + $num2" | bc)
         echo "Result: $num1 + $num2 = $result"
